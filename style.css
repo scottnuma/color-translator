@@ -1,1 +1,24 @@
-style.css
+body{
+	font-family: "Helvetica-Neue", "Helvetica", "Arial", Sans-Serif;
+	font-weight: 300;
+
+	max-width: 800px;
+	margin: auto;
+	padding: 30px;
+
+	background-color: maroon;
+	color: white;
+}
+
+p{
+	line-height: 1.5;
+}
+
+html{
+	background-color: dimgrey;
+}
+
+.row{
+	padding: 15px;
+	line-height: 1.75;
+}
