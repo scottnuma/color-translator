@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<title>Color Translator</title>
+		<link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="style.css">
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -8,27 +9,31 @@
 	</head>
 		
 	<body>
-		<h1>Colorful Phrases</h1>
-		<h2>A New Way to Remember Colors</h2>
+		<div class="title">Color Translator</div>
+		<div class="container">
+			<div class="description">A New Way to Remember Colors</div>
 
-		<p>Sometimes you need to remember specific colors. Hexadecimals, however, are tricky to recall. Simply type in your six character hexadecimal and receive a specific phrase to help you remember. When you're ready, type the phrase back in (spelling and capitalization count) to regain your hexadecimal number.</p>
+			<p>Sometimes you need to remember specific colors. Hexadecimals, however, are tricky to recall. Simply type in your six character hexadecimal and receive a specific phrase to help you remember. When you're ready, type the phrase back in (spelling and capitalization count) to regain your hexadecimal number.</p>
 
-		<div class="row">
-		 	Hexadecimal Color <input type="text" id="color">
-			<input type="submit" value="Submit" id="submit">
+			<div class="row">
+			 	Hexadecimal Color <input type="text" id="color">
+				<input type="submit" value="Submit" id="submit">
 
-			<div id="output">
+				<div id="output">
+				</div>
 			</div>
-		</div>
 
-		<div class="row">
+			<div class="row">
 
-			Phrase <input type="text" id="phrase">
-			<input type="submit" value="Submit" id="phraseSubmit">
+				Phrase <input type="text" id="phrase">
+				<input type="submit" value="Submit" id="phraseSubmit">
 
-			<div id="output-color">
+				<div id="output-color">
+				</div>
 			</div>
+
 		</div>
+		<footer><a href="http://scottnumamoto.me">scottnumamoto.me</a></footer>
 
 
 	</body>
